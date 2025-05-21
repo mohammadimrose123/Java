@@ -17,7 +17,6 @@ public class StudentScoreRecorderingSystem {
             String scoreInput = scanner.nextLine();
 
             int score = Integer.parseInt(scoreInput);
-
             if (score < 0 || score > 100) {
                 throw new IllegalArgumentException("Score must be between 0 and 100.");
             }
